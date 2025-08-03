@@ -1,4 +1,5 @@
 ✨ Project Overview
+
 This project implements a complete pipeline to fine-tune OpenAI's GPT-2 language model on a dataset of folk tales. The goal is to enable the model to generate coherent and creative stories from custom prompts. The process includes:
 
 Data ingestion and preprocessing
@@ -13,7 +14,7 @@ Evaluation and story generation from prompts
 
 📁 Project Structure
 
-Edit
+
 ├── data/                     # Input dataset (CSV/TXT)
 
 ├── visualizations/          # Plots and WordClouds
@@ -28,6 +29,7 @@ Edit
 
 
 🧠 Key Features
+
 🧹 Data Cleaning & Normalization: Handles CSV/TXT files, removes noise, processes paragraphs.
 
 📊 Visualization: Word count, sentence length, sentiment analysis, word clouds, and top words.
@@ -66,7 +68,9 @@ pip install -r requirements.txt
 
 
 🚀 How to Run
+
 Place Dataset
+
 Put your dataset file (.csv or .txt) in the root directory.
 
 Run the Script
@@ -85,6 +89,7 @@ Fine-tuned model: fine_tuned_folktales_gpt2/
 Generated stories: generated_stories_from_prompts.txt
 
 🔍 Example Prompts
+
 Once upon a time in a small village,
 
 In the ancient kingdom of dragons,
@@ -94,6 +99,7 @@ Deep in the enchanted forest,
 Each prompt generates a unique story from the fine-tuned GPT-2 model.
 
 📈 Visualizations
+
 Word count distribution
 
 Sentence count distribution
@@ -105,6 +111,7 @@ Word cloud of most used terms
 Sentiment analysis with TextBlob
 
 📚 Acknowledgements
+
 OpenAI GPT-2
 
 HuggingFace Transformers & Datasets
